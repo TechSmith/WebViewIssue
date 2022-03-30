@@ -102,6 +102,6 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>xcopy /D /Y "$(ProjectDir)..\packages\Microsoft.Web.WebView2.1.0.1020.30\build\native\x64\*.dll" "$(TargetDir)"</PostBuildEvent>
+    <PostBuildEvent>xcopy /D /Y "$(ProjectDir)..\packages\Microsoft.Web.WebView2.1.0.1150.38\build\native\x64\*.dll" "$(TargetDir)"</PostBuildEvent>
   </PropertyGroup>
 </Project>
